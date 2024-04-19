@@ -9,6 +9,14 @@ import { GrAnnounce } from "react-icons/gr";
 import { IoPersonSharp } from "react-icons/io5";
 import { IoSettingsOutline } from "react-icons/io5";
 import { IoIosLogOut } from "react-icons/io";
+import {
+    Menu,
+    MenuHandler,
+    MenuList,
+    MenuItem,
+    Button,
+} from "@material-tailwind/react";
+import { MdMenu } from "react-icons/md";
 
 const Home = () => {
     return (
@@ -62,8 +70,21 @@ const Home = () => {
 
             {/* Payments getway */}
             <div className='md:overflow-hidden'>
+                <Menu className='hidden md:block'>
+                    <MenuHandler>
+                        <Button className='hidden md:block md:text-black md:text-4xl md:mx-5 md:relative md:top-5'><MdMenu />
+                        </Button>
+                    </MenuHandler>
+                    <MenuList className='border-none bg-white ml-2 p-5'>
+                        <MenuItem className='text-lg'>Dash Board</MenuItem>
+                        <MenuItem className='text-lg'>Menu</MenuItem>
+                        <MenuItem className='text-lg'>Payments</MenuItem>
+                        <MenuItem className='text-lg'>Offers & Events</MenuItem>
+                        <MenuItem className='text-lg'>Customers</MenuItem>
+                    </MenuList>
+                </Menu>
                 <div className='bg-gray-100'>
-                    <div className='h-[112px] bg-[#FFD628] w-[1235px] mt-[98px] space-y-2 md:h-[100px] md:mt-[80px] md:w-full'>
+                    <div className='h-[112px] bg-[#FFD628] w-[1235px] mt-[98px] space-y-2 md:h-[100px] md:mt-[50px] md:w-full'>
                         <h2 className='text-2xl font-bold ml-16 pt-6 md:ml-5'>Settings</h2>
                         <p className='ml-16 md:ml-5'>Manage your account settings</p>
                     </div>
