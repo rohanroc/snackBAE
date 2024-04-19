@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/snackBAE/static/css/main.ecae0b08.css",
+    "main.js": "/snackBAE/static/js/main.3ee768a3.js",
+    "static/js/453.68693753.chunk.js": "/snackBAE/static/js/453.68693753.chunk.js",
+    "static/media/fodo.png": "/snackBAE/static/media/fodo.8b0293de81050c0452fa.png",
+    "static/media/feedback-ig.png": "/snackBAE/static/media/feedback-ig.70336d50816d06ea1a75.png",
+    "index.html": "/snackBAE/index.html",
+    "main.ecae0b08.css.map": "/snackBAE/static/css/main.ecae0b08.css.map",
+    "main.3ee768a3.js.map": "/snackBAE/static/js/main.3ee768a3.js.map",
+    "453.68693753.chunk.js.map": "/snackBAE/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecae0b08.css",
+    "static/js/main.3ee768a3.js"
+  ]
+}
